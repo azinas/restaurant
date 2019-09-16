@@ -130,7 +130,7 @@ padding: 40px 0;
     color: #ffffff;
     overflow: auto;
     position: sticky;
-
+ 
 } 
 
 #navbar a {
@@ -154,7 +154,7 @@ padding: 40px 0;
     float: right;
 }
 #navbar ul li{
-    float: left;
+    float: right;
 }
 
 #navbar ul li a {
@@ -295,28 +295,38 @@ padding: 40px 0;
 }
 
 /******************* about info ***************/
-#about-info{
-    display: flex;
+#about-info .info-right{
+   float: center;
+   width: 100%;
+   min-height: 100%;
     
 
 }
 
-#about-info .about-box{
-    flex: 1;
+/* #about-info .about-box{
+    float: left;
     text-align: center;
     margin: auto;
     
-}
+} */
 
 
 #about-info .about-img{
+    display: block;
     color: #79FF3B;
-    max-height:25rem ;
-    margin: auto 10px;
-    padding: 1rem;
+    width: 50%;
+    max-height: 200px;
+    margin: auto;
     border-radius: 50%;
     opacity: 0.8;
 }
+#about-info .info-left{
+    float: center;
+    width: 100%;
+    min-height: 100%;
+     
+ 
+ }
 
 #about-info .about-content{
     text-align: center;
